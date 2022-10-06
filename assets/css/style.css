@@ -8,24 +8,27 @@ ul li {
 }
 
 button {
-    fill: white;
+    background-color: #fff;
 }
 
-.header {
-    padding: 0 45px;
-    display: flex;
-    justify-content: space-between;
+.container{
+    max-width: 1265px;
+    margin: 0 auto;
 }
 
-
-.nav-end {
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 20px;
     background-color: #C9ADC6;
     color: #FFF;
 }
 
-.nav-start {
+.nav {
     color: #B08EAD;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .nav__items {
@@ -47,26 +50,17 @@ button {
 }
 
 .inner {
+    margin: 0 auto;
+    max-width: 1440px;
     height: 820px;
-
-}
-
-.inner__block_a {
-    height: 410px;
-    background-color: #C9ADC6;
-
-}
-
-.inner__block_b {
-    height: 410px;
-    background-color: #D6BBD3;
+    background: url("../img/inner.jpg");
 }
 
 .inner__back {
-    position: absolute;
+    position: relative;
     z-index: 2;
-    left: 15%;
-    top: 20%;
+    left: 180px;
+    top: 94px;
     background-image: url("../img/Background_1.png");
     height: 675px;
     width: 850px;
@@ -74,9 +68,9 @@ button {
 
 .inner__card {
     z-index: 3;
-    position: absolute;
-    top: 35%;
-    left: 60%;
+    position: relative;
+    top: -470px;
+    left: 905px;
 }
 
 .card {
@@ -122,10 +116,11 @@ button {
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
-    
+
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
+
 .card__link span {
     border-bottom: 2px solid #FFF;
 }
@@ -207,6 +202,8 @@ button {
 }
 
 .cover {
+    max-width: 1440px;
+    margin: 0 auto;
     height: 825px;
     background-color: #CEB3CB;
     display: flex;
@@ -297,8 +294,4 @@ button {
     font-size: 16px;
     line-height: 18px;
     color: #B0B0B0;
-}
-.block_white {
-    height: 600px;
-    background-color: #fff;
 }
